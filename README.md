@@ -73,7 +73,7 @@ Setup environment:
 1. **Upload CSV ke Supabase**: Menggunakan Supabase untuk menyimpan data attrition rate yang sudah disiapkan dengan melakukan feature engineering sebelumnya ke data base agar bisa diakses oleh Metabase. Untuk dapat menggunakan supabase perlu disiapkan terlebih dahulu akun user yang akan digunakan untuk mengakses supabase yang mana juga terdapat opsi menggunakan akun GitHub. Selanjutnya projek baru perlu dibuat dengan mendefinisikan nama, organisasi, dan password. Setelah itu didapatkan username dan password untuk projek ini adalah **postgres.uxzwesijexuasxnywyuf** dan **52H9suDMxF5lWrjq**. Password dan username tersebut dibutuhkan saat akan mengirim data hasil feature engineering ke supabase untuk masuk ke databse PostgreSQL.
    
 2.  **Menghubungkan Metabase dengan Supabase**:
-Untuk dapat mengolah database PostgreSQL yang ada pada Supabase, diperlukan pengaturan pada metabase dengan memberikan informasi database yang sama dengan yang sudah dikirim ke supabase tersebut. Informasi yang perlu dimasukkan meliputi tipe databse, yaitu PostgreSQL, host, port, database name, username, dan password. Username dadn password yang perlu dimasukkan, yaitu **postgres.uxzwesijexuasxnywyuf** dan **52H9suDMxF5lWrjq**. 
+Untuk dapat mengolah database PostgreSQL yang ada pada Supabase, diperlukan pengaturan pada metabase dengan memberikan informasi database yang sama dengan yang sudah dikirim ke supabase tersebut. Informasi yang perlu dimasukkan meliputi tipe databse, yaitu PostgreSQL, host, port, database name, username, dan password. Username dadn password yang dipilih untuk menggunakan metabase, yaitu **root@mail.com** dan **root123**. 
 
 
 ### Business Dashboard
@@ -82,8 +82,8 @@ Business dashboard dibuat menggunakan Metabase, yang menampilkan beberapa inform
 
 Karyawan yang paling berisiko berhenti adalah mereka yang berumur antara 26-35 tahun.
 Jarak rumah ke kantor juga menjadi faktor penting, dengan karyawan yang tinggal dalam jarak 0-5 km dari kantor memiliki tingkat attrition yang lebih tinggi.
-Kerja lembur (overtime) dikombinasikan dengan rendahnya tingkat work-life balance berperan signifikan dalam menyebabkan karyawan keluar dari perusahaan.
+Ketiga, alasan yang menyebabkan attrition rate meningkat adalah kerja lembur (overtime) yang dikombinasikan dengan rendahnya tingkat work-life balance berperan signifikan dalam menyebabkan karyawan keluar dari perusahaan.
 Dashboard ini membantu manajemen untuk memahami distribusi dan tren attrition, serta memungkinkan pengambilan keputusan yang lebih baik dalam hal perbaikan work-life balance dan kebijakan lembur.
 
 ### Conclusion
-Proyek ini berhasil mengidentifikasi beberapa faktor utama yang berkontribusi terhadap tingginya tingkat attrition di perusahaan Jaya Jaya Maju. Faktor-faktor seperti usia, jarak rumah ke kantor, dan lembur dengan work-life balance yang rendah adalah penyebab utama mengapa karyawan berhenti. Dengan menggunakan business dashboard, manajemen dapat memahami pola-pola ini dan membuat langkah-langkah strategis untuk menurunkan attrition rate. Beberapa rekomendasi meliputi peninjauan kembali kebijakan lembur, peningkatan keseimbangan antara pekerjaan dan kehidupan pribadi, serta perhatian khusus kepada kelompok umur yang lebih rentan.
+Proyek ini berhasil mengidentifikasi beberapa faktor utama yang berkontribusi terhadap tingginya tingkat attrition di perusahaan Jaya Jaya Maju. Faktor-faktor seperti usia, jarak rumah ke kantor, dan lembur dengan work-life balance yang rendah adalah penyebab utama mengapa karyawan berhenti. Dengan menggunakan business dashboard, manajemen dapat memahami pola-pola ini dan membuat langkah-langkah strategis untuk menurunkan attrition rate. Beberapa rekomendasi meliputi peninjauan kembali kebijakan lembur, sosialisasi kepada pegawai tentang cara meningkatkan keseimbangan antara pekerjaan dan aktivitasi kehidupan pribadi, serta perhatian khusus kepada kelompok umur yang lebih rentan.
